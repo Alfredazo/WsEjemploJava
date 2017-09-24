@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="WSGestionarUsuario">
+      <implementation-class>Service.WSGestionarUsuario</implementation-class>
+    </service>
+    <service name="WSGestionarTrabajador">
+      <implementation-class>Service.WSGestionarTrabajador</implementation-class>
+    </service>
+    <service name="WSGestionarEmpresa">
+      <implementation-class>Service.WSGestionarEmpresa</implementation-class>
+    </service>
+    <service name="WSGestionarTurnoHora">
+      <implementation-class>Service.WSGestionarTurnoHora</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
